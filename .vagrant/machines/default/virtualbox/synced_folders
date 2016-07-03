@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/prestigeww":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/prestigeww","hostpath":"K:/RepoDepot/glquote-investor-dashboards/prestigeww","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"K:/RepoDepot/glquote-investor-dashboards/prestigeww","disabled":false}}}
