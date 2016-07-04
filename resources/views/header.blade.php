@@ -2,7 +2,7 @@
 <header class="main-header">
 
   <!-- Logo -->
-  <a href="index2.html" class="logo"><b>Admin</b>LTE</a>
+  <a href="#" class="logo"><b>glquote</b>DASH[alpha]</a>
 
   <!-- Header Navbar -->
   <nav class="navbar navbar-static-top" role="navigation">
@@ -32,14 +32,14 @@
                       <img src="{{ asset("/bower_components/admin-lte/dist/img/user2-160x160.jpg") }}" class="img-circle" alt="User Image"/>
                     </div>
                     <!-- Message title and timestamp -->
-                    <h4>                            
+                    <h4>
                       Support Team
                       <small><i class="fa fa-clock-o"></i> 5 mins</small>
                     </h4>
                     <!-- The message -->
                     <p>Why not buy a new awesome theme?</p>
                   </a>
-                </li><!-- end message -->                      
+                </li><!-- end message -->
               </ul><!-- /.menu -->
             </li>
             <li class="footer"><a href="#">See All Messages</a></li>
@@ -62,7 +62,7 @@
                   <a href="#">
                     <i class="fa fa-users text-aqua"></i> 5 new members joined today
                   </a>
-                </li><!-- end notification -->                      
+                </li><!-- end notification -->
               </ul>
             </li>
             <li class="footer"><a href="#">View all</a></li>
@@ -95,7 +95,7 @@
                       </div>
                     </div>
                   </a>
-                </li><!-- end task item -->                      
+                </li><!-- end task item -->
               </ul>
             </li>
             <li class="footer">
@@ -108,17 +108,17 @@
           <!-- Menu Toggle Button -->
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <!-- The user image in the navbar-->
-            <img src="{{ asset("/bower_components/admin-lte/dist/img/user2-160x160.jpg") }}" class="user-image" alt="User Image"/>
+            <img src="{{ asset("/glq_media_resources/MikeOrr.jpg") }}" class="user-image" alt="User Image"/>
             <!-- hidden-xs hides the username on small devices so only the image appears. -->
-            <span class="hidden-xs">Alexander Pierce</span>
+            <span class="hidden-xs">Michael Orr</span>
           </a>
           <ul class="dropdown-menu">
             <!-- The user image in the menu -->
             <li class="user-header">
-              <img src="{{ asset("/bower_components/admin-lte/dist/img/user2-160x160.jpg") }}" class="img-circle" alt="User Image" />
+              <img src="{{ asset("/glq_media_resources/MikeOrr.jpg") }}" class="img-circle" alt="User Image" />
               <p>
-                Alexander Pierce - Web Developer
-                <small>Member since Nov. 2012</small>
+                Michael Orr - GLQUOTE.COM
+                <small>Member since Oct. 1979</small>
               </p>
             </li>
             <!-- Menu Body -->
