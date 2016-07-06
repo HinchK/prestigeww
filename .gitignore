@@ -10,5 +10,3 @@ Homestead.json
 Vagrantfile
 /_ide_helper.php
 /composer.lock
-
-composer.lock

@@ -20,7 +20,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link href="{{ asset("/bower_components/admin-lte/dist/css/skins/skin-blue.min.css")}}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("/bower_components/admin-lte/dist/css/skins/skin-red.min.css")}}" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +29,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="skin-blue">
+  <body class="skin-red">
     <div class="wrapper">
 
       <!-- Header -->
@@ -43,14 +43,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            {{ $page_title or "Orr & Associates Insurance Services" }}
+            {{ $page_title or "Orr & Associates Insurance Services | Business Metrics" }}
             <small>{{ $page_description or null }}</small>
           </h1>
-          <!-- You can dynamically generate breadcrumbs here -->
-          <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-            <li class="active">Here</li>
-          </ol>
+          {{--<!-- You can dynamically generate breadcrumbs here -->--}}
+          {{--<ol class="breadcrumb">--}}
+            {{--<li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>--}}
+            {{--<li class="active">Here</li>--}}
+          {{--</ol>--}}
         </section>
 
         <!-- Main content -->
@@ -77,5 +77,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
           Both of these plugins are recommended to enhance the
           user experience -->
+    <script src="{{ asset ("/bower_components/admin-lte/plugins/js/fastclick/fastclick.min.js") }}" type="text/javascript"></script>
+    <script src="{{ asset ("/bower_components/admin-lte/plugins/js/slimScroll/jquery.slimscroll.min.js") }}" type="text/javascript"></script>
   </body>
 </html>
