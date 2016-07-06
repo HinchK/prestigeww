@@ -162,6 +162,7 @@ return [
          * Development/Testing Service Providers...
          */
         Barryvdh\Debugbar\ServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ],
 
     /*

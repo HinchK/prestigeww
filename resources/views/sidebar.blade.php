@@ -12,7 +12,7 @@
       <div class="pull-left info">
         <p> Michael Orr</p>
         <!-- Status -->
-        <a href="#"><i class="fa fa-circle text-success"></i> Faded</a>
+        <a href="#"><i class="fa fa-circle text-success"></i> Online [demo]</a>
       </div>
     </div>
 

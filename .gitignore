@@ -8,3 +8,7 @@ Homestead.yaml
 Homestead.json
 .env
 Vagrantfile
+/_ide_helper.php
+/composer.lock
+
+composer.lock

@@ -118,7 +118,7 @@
               <img src="{{ asset("/glq_media_resources/MikeOrr.jpg") }}" class="img-circle" alt="User Image" />
               <p>
                 Michael Orr - GLQUOTE.COM
-                <small>Member since Oct. 1979</small>
+                <small>Member since July 2016</small>
               </p>
             </li>
             <!-- Menu Body -->

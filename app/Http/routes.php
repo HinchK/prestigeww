@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('admin', function () {
     return view('admin_template');
 });
@@ -29,3 +25,14 @@ Route::controllers([
 ]);
 
 Route::get('test', 'TestController@index');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
+/* default "logged in" home route */
+Route::get('/', function () {
+	return view('welcome');
+});
+
+Route::get('/', 'WelcomeController@index');
