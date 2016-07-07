@@ -2,7 +2,7 @@
 <header class="main-header">
 
   <!-- Logo -->
-  <a href="#" class="logo"><b>glquote</b>DASH[alpha]</a>
+  <a href="#" class="logo"><b>GLQUOTE</b>[metrics]</a>
 
   <!-- Header Navbar -->
   <nav class="navbar navbar-static-top" role="navigation">
