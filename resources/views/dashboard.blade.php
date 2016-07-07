@@ -81,8 +81,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Optionally, you can add Slimscroll and FastClick plugins.
           Both of these plugins are recommended to enhance the
           user experience -->
-    <script src="{{ asset ("/bower_components/admin-lte/plugins/js/fastclick/fastclick.min.js") }}" type="text/javascript"></script>
-    <script src="{{ asset ("/bower_components/admin-lte/plugins/js/slimScroll/jquery.slimscroll.min.js") }}" type="text/javascript"></script>
+    <script src="{{ asset ("/bower_components/admin-lte/plugins/fastclick/fastclick.min.js") }}" type="text/javascript"></script>
+    <script src="{{ asset ("/bower_components/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js") }}" type="text/javascript"></script>
 
     <script>
       $(function () {
@@ -290,6 +290,5 @@ scratch. This page gets rid of all links and provides the needed markup only.
     barChart.Bar(barChartData, barChartOptions);
   });
     </script>
-
   </body>
 </html>
