@@ -1,16 +1,17 @@
 @extends('dashboard')
 
+
 @section('content')
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
                 GLQUOTE
-                <small>Business Intelligence Dashboard Samples</small>
+                <small>Sales Income Distribution</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li><a href="#">Charts</a></li>
-                <li class="active">ChartJS</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> GLQUOTE</a></li>
+                <li><a href="#">San Diego</a></li>
+                <li class="active">ReportsS</li>
             </ol>
         </section>
 
@@ -21,7 +22,7 @@
                     <!-- AREA CHART -->
                     <div class="box box-primary">
                         <div class="box-header with-border">
-                            <h3 class="box-title">Area Chart</h3>
+                            <h3 class="box-title">Average Agency Income - July</h3>
 
                             <div class="box-tools pull-right">
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -41,7 +42,7 @@
                     <!-- DONUT CHART -->
                     <div class="box box-danger">
                         <div class="box-header with-border">
-                            <h3 class="box-title">Donut Chart</h3>
+                            <h3 class="box-title">Mean Agent Distributions for July 2016</h3>
 
                             <div class="box-tools pull-right">
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -62,7 +63,7 @@
                     <!-- LINE CHART -->
                     <div class="box box-info">
                         <div class="box-header with-border">
-                            <h3 class="box-title">Line Chart</h3>
+                            <h3 class="box-title">Cost Per Lead - July </h3>
 
                             <div class="box-tools pull-right">
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -82,7 +83,7 @@
                     <!-- BAR CHART -->
                     <div class="box box-success">
                         <div class="box-header with-border">
-                            <h3 class="box-title">Bar Chart</h3>
+                            <h3 class="box-title">Leads & Sales Daily</h3>
 
                             <div class="box-tools pull-right">
                                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -140,7 +141,7 @@
                 var areaChart = new Chart(areaChartCanvas);
 
                 var areaChartData = {
-                    labels: ["January", "February", "March", "April", "May", "June", "July"],
+                    labels: ["1 July ","5 ...","6","7","8","11","12","13","14","15","18","19","20","21","22","25","26","27","28","29 July"],
                     datasets: [
                         {
                             label: "Electronics",
@@ -150,7 +151,7 @@
                             pointStrokeColor: "#c1c7d1",
                             pointHighlightFill: "#fff",
                             pointHighlightStroke: "rgba(220,220,220,1)",
-                            data: [65, 59, 80, 81, 56, 55, 40]
+                            data: [17.21,32.85,15.39,19.51,4.37,12.64,34.73,15.16,6.92,31.55,21.44,24.24,35.89,17.20,5.52,37.66,32.36,8.31,8.36,5.85]
                         },
                         {
                             label: "Digital Goods",
@@ -160,7 +161,7 @@
                             pointStrokeColor: "rgba(60,141,188,1)",
                             pointHighlightFill: "#fff",
                             pointHighlightStroke: "rgba(60,141,188,1)",
-                            data: [28, 48, 40, 19, 86, 27, 90]
+                            data: [15,28,23,8,14,30,18,11,11,9,18,30,29,8,13,10,25,15,10,21]
                         }
                     ]
                 };
@@ -223,42 +224,30 @@
     var pieChartCanvas = $("#pieChart").get(0).getContext("2d");
     var pieChart = new Chart(pieChartCanvas);
     var PieData = [
-      {
-        value: 700,
-        color: "#f56954",
-        highlight: "#f56954",
-        label: "Chrome"
-      },
-      {
-        value: 500,
-        color: "#00a65a",
-        highlight: "#00a65a",
-        label: "IE"
-      },
-      {
-        value: 400,
-        color: "#f39c12",
-        highlight: "#f39c12",
-        label: "FireFox"
-      },
-      {
-        value: 600,
-        color: "#00c0ef",
-        highlight: "#00c0ef",
-        label: "Safari"
-      },
-      {
-        value: 300,
-        color: "#3c8dbc",
-        highlight: "#3c8dbc",
-        label: "Opera"
-      },
-      {
-        value: 100,
-        color: "#d2d6de",
-        highlight: "#d2d6de",
-        label: "Navigator"
-      }
+    {
+    value: 1125.90,
+    color: "#f56954",
+    highlight: "#f56954",
+    label: "Writing Agent Income"
+    },
+    {
+    value: 1125.90,
+    color: "#00a65a",
+    highlight: "#00a65a",
+    label: "Controlling Agent Income"
+    },
+    {
+    value: 187.65,
+    color: "#f39c12",
+    highlight: "#f39c12",
+    label: "Overwriting Agent Income"
+    },
+    {
+    value: 1688.85,
+    color: "#00c0ef",
+    highlight: "#00c0ef",
+    label: "House Income"
+    }
     ];
     var pieOptions = {
       //Boolean - Whether we should show a stroke on each segment
