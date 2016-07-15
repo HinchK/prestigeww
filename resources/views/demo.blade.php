@@ -144,7 +144,7 @@
                     labels: ["1 July ","5 ...","6","7","8","11","12","13","14","15","18","19","20","21","22","25","26","27","28","29 July"],
                     datasets: [
                         {
-                            label: "Electronics",
+                            label: "Cost per Lead",
                             fillColor: "rgba(210, 214, 222, 1)",
                             strokeColor: "rgba(210, 214, 222, 1)",
                             pointColor: "rgba(210, 214, 222, 1)",
@@ -154,7 +154,7 @@
                             data: [17.21,32.85,15.39,19.51,4.37,12.64,34.73,15.16,6.92,31.55,21.44,24.24,35.89,17.20,5.52,37.66,32.36,8.31,8.36,5.85]
                         },
                         {
-                            label: "Digital Goods",
+                            label: "Sales",
                             fillColor: "rgba(60,141,188,0.9)",
                             strokeColor: "rgba(60,141,188,0.8)",
                             pointColor: "#3b8bba",
